@@ -1,0 +1,408 @@
+
+html,
+body,
+#cover{
+   min-height:100%;
+}
+#cover{
+    
+    background:url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    opacity: 0.96;
+}
+.container{
+    height: 100%;
+}
+.navbar-brand{
+    background-color: crimson;
+    padding-left: 10px;
+    padding-right:10px;
+    border-radius: 7px;
+    margin: 0;
+    
+}
+.navbar-brand img{
+    max-height: 30px;
+    margin:5px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.welcome-section{
+    margin-top: 20% ;
+    padding-bottom: 10%;
+}
+.welcome-section h1{
+    margin: 0px 0px 30px 0px; 
+    font-family:'Noto Serif JP', serif;
+    font-style: italic;
+}
+.welcome-section h2{
+    font-family: 'Nunito Sans', sans-serif;
+    
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.btn-primary{
+    border:0px;
+    border-radius: 7px;
+    padding: 10px 40px;
+    font-size:1.5rem;
+    font-weight: 900;
+    background-color: crimson;
+    transition: 0.6s;
+}
+.btn-primary:hover{
+    color: hsl(354,70%,50%);
+    background-color: white;
+    font-size:1.7rem;
+}
+a.nav-link{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: crimson!important;
+    transition: color 0.5s ease;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    height: 50px;
+    border-radius: 7px;
+    padding-top: 10px;
+    margin-right: 15px;
+}
+a.nav-link:hover{
+    color:white !important;
+    background-color: crimson;
+}
+
+.navbar{
+    margin: 0;
+    padding:0;
+    min-width: 100%;
+    border-radius: 7px;
+}
+.navbar-collapse{
+    background-color: gold;
+    border-radius: 7px;
+    opacity: 1;
+    z-index: 1030 !important;
+}
+#navbarNav{
+    z-index: 1030 !important;
+}
+
+
+/*Section Services*/
+
+
+#services{
+    background-color:white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin: auto;
+    z-index: 10;
+}
+#services p{
+    font-size: 1rem;
+    font-family: serif;
+}
+.services-bottom{
+    
+}
+#services h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+#services h4{
+    font-size: 1.2rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+#services h5{
+    font-size: 1.2rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+#services h6{
+    font-size: 1.2rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 900;
+}
+
+.bottom-p{
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.item-circle{
+    color: white;
+    background-color: crimson;
+    margin:0  auto 10px auto;
+    height: 80px;
+    width: 80px;
+    padding-top: 16px;
+    border-radius: 100%;
+    z-index: 10;
+}
+
+/* PORTFOLIO*/
+
+#portfolio{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: ghostwhite;
+}
+#portfolio h1{
+    text-transform: uppercase;
+}
+.portfolio-top{
+    margin:30px auto 8% auto;
+}
+.portfolio-top p{
+    font-style: italic;
+    font-family: serif;
+}
+
+.card{
+    max-width: 210px;
+    margin:auto;
+    margin-bottom: 20px;
+    position: relative;
+    border:none;
+}
+.card img{
+    max-width: 100%;
+    display: block;
+}
+
+.card-body{
+   padding-top: 8px;
+    font-family:'Roboto Condensed', sans-serif;
+}
+
+.middle{
+    max-width: 100%;
+    height: 69%;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+    background-color: crimson;
+    top:0%;
+}
+.card img:hover{
+    opacity: 0.3;
+}
+.middle:hover{
+    opacity: 0.5;
+}
+.card-icon{
+    color: white;
+    top: 34%;
+    left: 41%;
+    position: absolute;
+    
+}
+.card-body p{
+    margin: 0;
+}
+.card-bottom-p{
+    font-size: 0.8rem;
+    font-style: italic;
+    font-family: serif;
+    margin: 0;
+}
+
+
+/* ABOUT */
+
+
+#about{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.about-top{
+     margin:30px auto 8% auto;
+}
+
+.about-top p{
+    font-style: italic;
+    font-family: serif;
+}
+.about-bottom .row {
+    
+    margin-bottom: 60px;
+}
+.about-bottom h2{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.about-bottom p{
+    font-size: 0.8rem;
+    font-family: serif;
+    min-width: 120%;
+}
+.about-bottom img{
+    border: solid 4px lavender;
+    border-radius: 100%;
+    width: 105px;
+    height: 105px;
+}
+
+
+/* TEAM */
+
+
+#team{
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.team-top{
+    padding-top: 10%;
+    padding-bottom: 10%
+}
+.team-middle{
+    margin: 10px auto;
+}
+.team-middle img{
+    margin:10px auto;
+    width: 150px;
+    height: 150px;
+    border: solid 4px lavender;
+    border-radius: 100%;
+}
+.team-middle h4{
+    font-size: 1rem;
+}
+.team-middle p{
+    font-size: 0.8rem;
+    font-style: italic;
+    font-family: serif;
+}
+.team-middle ul{
+    justify-content: center;
+}
+.team-middle li{
+    color: white;
+    background-color: crimson;
+}
+.team-middle li:hover{
+    background-color: gold;
+}
+.team-bottom p{
+    font-size: 0.8rem;
+    font-family: 'Montserrat',sans-serif;
+    margin: 10% auto;
+}
+
+/* FORM */
+
+
+#contact{
+    background:url('https://www.barraques.cat/pngfile/big/104-1040028_back-to-school-stationery-and-tech-back-to.jpg') no-repeat;
+}
+.form-control{
+}
+.form-control{
+    height: 50px;
+}
+.btn-secondary{
+    width: 180px;
+    height: 60px;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    color: gold;
+}
+.btn-secondary:hover{
+    color: white;
+    background-color: crimson;
+}
+
+/*  FOOTER  */
+
+.policy{
+    list-style:none !important;
+    text-decoration: none;
+}
+footer a{
+    color: crimson !important;
+    font-size:1.3rem !important;
+}
+
+.footer-middle li{
+    background-color: gray !important;
+    color: gold !important;
+}
+.footer-middle li:hover{
+    background-color: crimson !important;
+    color: white !important;
+}
+
+/* MEDIA*/
+
+@media (max-width:575.98px){
+    .middle{
+        height: 158px !important;
+    }
+    .card-icon{
+        top: 34% !important;
+        left: 41% !important;
+    }
+    .about-bottom h2{
+        font-family: 'Montserrat',sans-serif;
+        font-size: 0.9rem !important;
+        font-weight: 900;
+    }
+    .about-bottom h3{
+        font-family: 'Montserrat',sans-serif;
+        font-size: 0.8rem;
+        font-weight: 900;
+    }
+    .about-bottom p{
+        font-size: 0.8rem;
+        font-family: serif;
+        min-width: 60px !important;
+        max-width: 240px;
+        margin: auto;
+    }
+    
+    #about .col-sm-4{
+        text-align: center !important;
+    }
+    .list-group{
+        
+        flex-direction: row !important;
+    }
+}
+
+
+@media (max-width:757.33px){
+    .middle{
+        height: 61.8%;
+    }
+    .card-icon{
+        top:27%;
+        left:37%    }
+    .about-bottom h6{
+        height: 147px;
+        width: 147px;
+        padding: 16% 15% 0px 15%;
+        line-height: 1.6rem;
+    }
+}
+
+@media (max-width:991.99px){
+    .about-bottom h6{
+        height: 203px;
+        width: 203px;
+        padding: 7% 15% 0px 15%;
+        line-height: 1.6rem;
+        font-size: 1.6rem;
+        line-height: 1.4em;
+    }
+}
